@@ -1,7 +1,9 @@
 const app = Vue.createApp({
     data() {
         return {
-            product: 'Socks'
+            image: './assets/images/socks_green.jpg',
+            product: 'Socks',
+            url: "https://paridhishah.dev/"
         }
     }
 })
